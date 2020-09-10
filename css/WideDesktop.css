@@ -110,3 +110,20 @@ grid-template-columns: repeat(12, 1fr);
 		margin: 10px;
 	}
 }
+/* iPhone */
+@media screen and (max-width: 768px) {
+	#header,
+	#box1,
+	#box2,
+	#box3,
+	#content,
+	#sidebar{
+		grid-column: 1 / 13;
+		}
+
+	#feet {
+	grid-template-columns: 1fr;
+		height: 800px;
+	}
+	
+}
