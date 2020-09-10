@@ -46,24 +46,9 @@ grid-template-columns: repeat(12, 1fr);
 #Footer4 {
 	margin: 10px;
 }
-
+	/* small desktop */
 @media screen and (max-width: 1200px) {
-	/* div{
-		border: 1px solid red;
-		display: grid;
-		grid-template-rows: 200px;
-		}
-		
-		#container{
-		width: 90%;
-		margin: 10px auto;
-		padding: 2px;
-		border: none;
-		gap: 2%;
-		grid-template-columns: repeat(12, 1fr);
-		} */
-		
-		
+			
 		#header {
 			grid-column: 1 / 13;
 		}  
@@ -93,3 +78,35 @@ grid-template-columns: repeat(12, 1fr);
 			margin: 10px;
 		}
 	}
+
+	/* iPad */
+@media screen and (max-width: 960px) {
+	#header {
+		grid-column: 1 / 13;
+	}  
+	#box1 { 
+		grid-column: 1 / 5;
+	}
+	#box2 {
+		grid-column: 5 / 9;
+	}
+	#box3{
+		grid-column: 9 / 13;
+	}
+	#content {
+		grid-column: 1 / 7;
+	}
+	#sidebar {
+		grid-column: 7 / 13;
+	}
+	#feet{
+		grid-template-columns: repeat(2, 1fr);
+		height: 400px;
+	}
+	#Footer1,
+	#Footer2,
+	#Footer3,
+	#Footer4 {
+		margin: 10px;
+	}
+}
