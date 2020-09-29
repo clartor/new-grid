@@ -123,7 +123,7 @@ grid-template-columns: repeat(12, 1fr);
 
 	#feet {
 	grid-template-columns: 1fr;
-		height: 800px;
+		height: 900px;
 	}
 	
 }
